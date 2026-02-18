@@ -1,0 +1,6 @@
+from math import hypot
+
+catetoOposto = float(input('Digite o cateto oposto: '))
+catetoAdjacente = float(input('Digite o cateto adjacente: '))
+hipotenusa = hypot(catetoOposto, catetoAdjacente)
+print(f'O comprimento da hipotenusa é {hipotenusa:.2f}')
